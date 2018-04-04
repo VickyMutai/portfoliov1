@@ -15,23 +15,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <!--Landing Page-->
-<header id="landing">
-  <div class="hero-image">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light" style="padding-top: 2%;">
-        <a href="#" class="navbar-brand"><i class="fa fa-home fa-2x" style="color:white;"></i></a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5">
+        <a href="#" class="navbar-brand"><i class="fa fa-home fa-2x" style="color:black;"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link" href="#skills" style="color:white;">SKILLS</a>
-              <a class="nav-item nav-link" href="#projects" style="color:white;">PROJECTS</a>
-              <a class="nav-item nav-link" href="#contact" style="color:white;">CONTACT</a>
+              <a class="nav-item nav-link" href="#skills" style="color:black;">SKILLS</a>
+              <a class="nav-item nav-link" href="#projects" style="color:black;">PROJECTS</a>
+              <a class="nav-item nav-link" href="#contact" style="color:black;">CONTACT</a>
             </div>
           </div>
       </nav>
+  <!--Landing Page-->
+<header id="landing">
+  <div class="hero-image mt-5">
+    <div class="container">
     </div>
     <div class="hero-text">
         <h1 style="font-size:50px;">
@@ -42,9 +42,10 @@
     </div>
   </div>
 </header>
-<!--Add about section-->
+<!--Add skills section-->
 <div class="container">
 <div id='skills'>
+  <h1 class="text-center mt-5">Skills</h1>
 <div class="row mt-3 ml-5">
   <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
     <h2 class="mt-5">FRONTEND</h2>
@@ -75,11 +76,43 @@
   </div>
 </div>
 </div>
+</div>
+
+<!--Add projects section-->
+<div class="container">
+  <div id="projects">
+    <h1 class="text-center mt-5" style="padding-top:30px;">My Work...</h1>
+    <div class="row mt-3">
+      <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+      <div class="card ml-4">
+        <div class="card-body">
+          <img src="img/hood.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="card-footer">
+          <h5>Neighborhood Watch</h5>
+          <p>This is a django application that allows people in a neighboorhood to interact.</p>
+          <p><b>Technologies:</b><i>html,css,bootstrap,django,postgresql</i></p>
+          <a href="https://github.com/VickyMutai/neighborhood-watch" target="_blank" class="btn btn-sm btn-dark"><i class="fa fa-github">  View Github Repo</i></a>
+          <a href="https://hood-watch.herokuapp.com/" target="_blank" class="btn btn-sm btn-dark">  <i class="fa fa-eye-slash"> Live Demo</i></a>          
+        </div>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+          <div class="card mr-4">
+            <div class="card-body">
+              <img src="img/pitch2.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          </div>
+    </div>
+  </div>
+</div>
 <!--script files-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/typer.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

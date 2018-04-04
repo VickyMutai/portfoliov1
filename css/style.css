@@ -1,3 +1,7 @@
+nav{
+    background-color: whitesmoke;
+    color: black;
+}
 .hero-image{
     background-image: url("../img/header-bg.jpg");
     height: 100%;
@@ -7,10 +11,13 @@
 }
 .hero-text{
     text-align: center;
-    color: white;
+    color: whitesmoke;
     padding-top: 15%;
-    padding-bottom: 15%; 
+    padding-bottom: 20%; 
 }
 #skills{
+    background-color: whitesmoke;
+}
+#projects{
     background-color: whitesmoke;
 }
