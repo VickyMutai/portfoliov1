@@ -8,7 +8,7 @@ nav{
     box-shadow: 0 0 10px 2px;
   }  
 .navbar.scroll .navbar-col{ 
-  color:red !important;
+  color:#000000 !important;
 }
 .hero-image{
     background-image: url("../img/header-bg.jpg");
