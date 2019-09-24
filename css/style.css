@@ -1,5 +1,4 @@
 nav{
-
     color: whitesmoke;
 }
 .navbar-scrolled {
@@ -7,6 +6,7 @@ nav{
     background-image: url('../images/landing_bg.jpg');
     transition:0.4s;
     box-shadow: 0 0 10px 2px;
+    color: black;
   }  
 .hero-image{
     background-image: url("../img/header-bg.jpg");
