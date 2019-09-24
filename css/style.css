@@ -6,10 +6,9 @@ nav{
     background-image: url('../images/landing_bg.jpg');
     transition:0.4s;
     box-shadow: 0 0 10px 2px;
-    color: black;
   }  
 .navbar.scroll .navbar-col{ 
-  color:red;
+  color:red !important;
 }
 .hero-image{
     background-image: url("../img/header-bg.jpg");
