@@ -8,7 +8,7 @@ nav{
     box-shadow: 0 0 10px 2px;
     color: black;
   }  
-.navbar-default.scroll .navbar-brand{ 
+.navbar.scroll .navbar-col{ 
   color:red;
 }
 .hero-image{
