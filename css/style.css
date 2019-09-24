@@ -8,6 +8,9 @@ nav{
     box-shadow: 0 0 10px 2px;
     color: black;
   }  
+.navbar-default.scroll .navbar-brand{ 
+  color:red;
+}
 .hero-image{
     background-image: url("../img/header-bg.jpg");
     height: 100vh;
